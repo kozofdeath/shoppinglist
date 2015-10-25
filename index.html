@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Shopping List</h1>
+	</header>
+	<section>
+		<div class="header">
+			Enter an item: <input class="item" type="text">
+			Enter the items price: <input class="itemPrice" type="text">
+			<button id="addEntry" onclick="addEntry()">Add Entry</button>
+		</div>
+		<div class="labels">
+			<p id="itemLabel">Item</p>
+			<p id="priceLabel">Price</p>
+		</div>
+		<div class="content"></div>
+		<div id="priceCalculator">
+			<p>Total Price:<span id="totalPrice"></span></p>
+		</div>
+	</section>
+</body>
+</html>

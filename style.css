@@ -1,0 +1,49 @@
+section {
+	width:50%;
+	margin: 0 auto;
+}
+
+.content > div {
+	border: 1px solid black;
+	width: 100%;
+}
+
+header {
+	text-align:center;
+}
+
+.content > div {
+	border: solid black 1px;
+}
+
+.labels > p {
+	display: inline-block;
+	font-weight:bold;
+}
+
+.labels #itemLabel {
+	width: 49%;
+
+}
+
+.content > div > * {
+	display: inline-block;
+}
+
+.content > div > .itemEntry {
+	width: 50%;
+}
+
+.content > div > .priceEntry {
+	width: 10%;
+}
+
+button {
+	margin-left: 10px;
+	background-color: DarkBlue;
+	color:white;
+}
+
+#priceCalculator {
+	border:1px solid black;
+}
